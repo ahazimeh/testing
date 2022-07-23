@@ -1,0 +1,14 @@
+what not to test:
+your test should only test your code and not any third party code
+    don't test browser apis, native nodejs packages::don't test what you can't change
+    don't test your backend code implicitly by writing code into the frontend
+    test your reaction to the response you get back when you are sending a request
+Writing good tests:
+    follow AAA rule
+    only test one thing
+    focus on the essence of a test when arranging::don't make things complicated
+    keep the number of assertions ("expects") low
+Only test one thing: one feature or behavious per test
+
+Code Coverage:
+There are tools that help you measure your code coverage - actually Vitest comes with a built-in functionality: https://vitest.dev/guide/features.html#coverage
