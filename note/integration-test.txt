@@ -1,0 +1,4 @@
+most of your tests should be focused on unit testing
+but you should write integration testing because those functions that calls
+other function might also fail
+you should also have end to end tests
