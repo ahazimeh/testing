@@ -1,0 +1,12 @@
+vitest support writing your tests in the same file as your main code is
+    in-source testing
+math.test.js or math.spec.js
+
+// the script to run all tests with detailed explanation in the terminal
+// --run means it is only executed once otherwise it will always watch your tests
+"test": "vitest --run --reporter verbose",
+
+AAA patern
+Arrange: define the testing environment & values
+Act: Execute the code/function that should be tested
+Assert: Evalute the result and you set your expectations and define which results lead to success and which to failed test

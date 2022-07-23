@@ -1,0 +1,10 @@
+test runner executes your test ex: jest, karma
+assertion library: used to define outcomes, check whether your expectations met ex: jest, chai
+
+jest and vitest
+
+jest still doesn't totally support es module syntax, it does but somehow slow and you need
+to install some configuration
+
+in the scripts "test": "vitest --globals"
+globals flag so you can use special fns like it and expect without any extra imports
