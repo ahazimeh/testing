@@ -1,0 +1,19 @@
+01-starting-project
+Spies & Mocks:
+https://stackoverflow.com/questions/52131231/simple-definition-of-stub-spy-fake-and-mock-in-unit-testing
+https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub
+Spies:
+use spies if you don't care about what a function does but just wanna know whether it was executed for ex
+you can wrap the function with such a spies object or replace the function which is more common
+because it helps you get rid of the side effect
+Mocks:
+You often replace bigger of an api of a certain module or code
+and with mocks you also often implement some test specific object in the replacement object
+that does something else than the original function but helps you test different scenerios
+
+vi.mock is hoisted to automatically to the top, for jest you have to call it on top of the file
+before any imports
+
+behind the scenes the test files that aren't mocked are getting called first
+not sure if 2 files mocked different things will carry the mock with you but:
+https://stackoverflow.com/questions/54805907/why-is-my-jest-function-mock-affecting-another-test
