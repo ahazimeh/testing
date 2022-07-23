@@ -1,0 +1,10 @@
+unit testing: it is about testing the individual unit blocks that makes up our application
+    and all these building blocks are tested stand alone
+integration testing: test the combination of building blocks
+end to end testing: test the intire flow for a feature
+
+test driven development:
+    you don't write your app code first and then test driven code but
+    first before writing any app code you write failing tests where at the end define
+    the expected behaviour, then implement the code that should be tested
+    then refactor and go throught the flow over and over again
