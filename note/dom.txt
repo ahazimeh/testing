@@ -1,0 +1,12 @@
+for both jest and vitest you can choose the testing environment (default node)
+vitest and jest also supports another environment called jsdom emulating that your code runs on the browser
+happy-dom is vitest only
+to switch: "test": "vitest --run --environment happy-dom"
+
+in jest you can switch for specific file:
+check the docs: https://jestjs.io/docs/configuration
+/**
+ * @jest-environment jsdom
+ */
+
+testing library package to help you with testing
