@@ -1,0 +1,13 @@
+expect(result).toBeNaN();
+
+// error handling
+const resultFn = () => {
+    add();
+};
+expect(resultFn).toThrow(/is not iterable/);
+
+expect(cleanedNumbers[0]).toBeTypeOf("number");
+
+expect(cleanedNumbers).toEqual([1, 2]);
+
+expect(resultText).toContain(result.toString());

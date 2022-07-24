@@ -1,0 +1,3 @@
+import { it, expect, beforeAll, beforeEach, afterEach, afterAll } from "vitest";
+
+expect(user).toHaveProperty("email");
