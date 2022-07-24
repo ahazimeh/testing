@@ -8,11 +8,6 @@ describe("generateReportData()", () => {
     // const logger = vi.fn();
     const logger = vi.fn(() => {});
 
-    //video 69
-    // maybe you don't want to add mocking in general or in __mocks__ but only for some tests
-    // mockImplementationOnce
-    // logger.mockImplementation(() => {});
-
     generateReportData(logger);
     expect(logger).toHaveBeenCalled(); //.toBeCalled(); //both works
     // toBeCalledTimes(1); // .toBeCalledWith
